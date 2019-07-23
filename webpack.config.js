@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/components/index.js",
   output: {
-    filename: "VueEasyNav.js",
+    filename: "@COMP_NAME.js",
     path: path.resolve(__dirname, "dist"),
-    filename: "VueEasyNav.js",
-    library: "VueEasyNav",
+    filename: "@COMP_NAME.js",
+    library: "@COMP_NAME",
     libraryTarget: "umd"
   },
   plugins: [

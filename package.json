@@ -1,11 +1,10 @@
 {
-  "name": "vue-easy-nav",
+  "name": "@NAME",
   "version": "1.0.0",
-  "description": "a simple vue component for navigation",
-  "main": "dist/VueEasyNav.js",
+  "description": "",
+  "main": "dist/@COMP_NAME.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alfred-kai/vue-easy-nav"
+    "type": "git"
   },
   "private": false,
   "scripts": {
@@ -14,10 +13,9 @@
     "build": "webpack"
   },
   "keywords": [
-    "vue",
-    "navigation"
+    "vue"
   ],
-  "author": "Alfred",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "font-awesome": "^4.7.0",

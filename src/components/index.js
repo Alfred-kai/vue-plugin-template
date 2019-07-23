@@ -1,5 +1,5 @@
-import VueEasyNav from "./VueEasyNav.vue";
+import @COMP_NAME from "./@COMP_NAME.vue";
 
-VueEasyNav.install = Vue => Vue.component(VueEasyNav.name, VueEasyNav);
+VueEasyNav.install = Vue => Vue.component(@COMP_NAME.name, @COMP_NAME);
 
-export default VueEasyNav;
+export default @COMP_NAME;

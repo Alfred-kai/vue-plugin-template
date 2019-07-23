@@ -1,2 +1,1 @@
-# vue-easy-nav
-a simple vue navigation component
+# A template for publishing your vue component
