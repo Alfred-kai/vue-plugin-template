@@ -1,5 +1,5 @@
 <template>
-  <div>copy your html code here!</div>
+  <div>Copy Your Html Code Here!</div>
 </template>
 <script>
 export default {

@@ -2,8 +2,14 @@ const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+const env = process.env.NODE_ENV;
+const envObj = {
+  development: "./src/main.js",
+  production: "./src/components/index.js"
+};
+
 module.exports = {
-  entry: "./src/components/index.js",
+  entry: envObj[env],
   output: {
     filename: "@COMP_NAME.js",
     path: path.resolve(__dirname, "dist"),

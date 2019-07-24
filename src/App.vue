@@ -1,11 +1,18 @@
 <template>
-  <div>hello vue-plugin-template</div>
+  <div id="app" class="wrapper">
+    <h2>You Can Test Your Component Here</h2>
+    <div class="content"><@COMP_NAME/></div>
+  </div>
 </template>
 
 <script>
+import @COMP_NAME from "./components/Component.vue";
+
 export default {
   name: "app",
-  components: {},
+  components: {
+    @COMP_NAME
+  },
   data() {
     return {};
   },
@@ -14,5 +21,15 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.wrapper {
+  text-align: center;
+  .content {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e5dbdb;
+  }
+}
 </style>
