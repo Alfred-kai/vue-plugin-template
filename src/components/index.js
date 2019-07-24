@@ -1,4 +1,4 @@
-import @COMP_NAME from "./@COMP_NAME.vue";
+import @COMP_NAME from "./Component.vue";
 
 VueEasyNav.install = Vue => Vue.component(@COMP_NAME.name, @COMP_NAME);
 
